@@ -1,2 +1,2 @@
 # Bootstrap_image_gallery
-image gallery created with bootstrap
+Please visit http://phyninja.github.io/Bootstrap_image_gallery to view
