@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<title>My bootstrap project</title>
+
+	<!-- including bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="styling.css">
+
+	<!-- meta tag required for mobile first optimization -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+	 <div class="container"> <a class="navbar-brand" href="#">IMGs</a>
+	 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	 	    <span class="navbar-toggler-icon"></span>
+	 	  </button>
+	 
+	 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+	 	  	<!-- col-md-6 splits the parent class, navbar-collapse into 2 parts. One part will contain 'About' & 'Contact'; the second part will contain 'Sign Up' & 'Login' -->
+	 	    <ul class="navbar-nav col-md-6"> 
+	 	      <li class="nav-item">
+	 	        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+	 	      </li>
+	 	      <li class="nav-item">
+	 	        <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+	 	      </li>
+	 	    </ul>
+
+	 	    <!-- col-md-6 splits the parent class, navbar-collapse into 2 parts. One part will contain 'About' & 'Contact'; the second part will contain 'Sign Up' & 'Login' -->
+	 	    <ul class="navbar-nav col-md-6" style="padding-right:0;"> 
+	 	      <li class="nav-item ml-auto"> <!-- ml-auto on this element moves the Sign Up element as much as possible to the right -->
+	 	        <a class="nav-link" href="#">Sign Up<span class="sr-only">(current)</span></a>
+	 	      </li>
+	 	      <li class="nav-item">
+	 	        <a class="nav-link" style="padding-right:0;" href="#">Login<span class="sr-only">(current)</span></a>
+	 	      </li>
+	 		</ul>
+	 	  </div></div>
+</nav>
+
+<div class="container">
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+	  <h1 class="display-4">The Image Gallery</h1>
+	  <p>Beautiful images that I didn't take.</p>
+	</div>
+
+	<!-- Image grid -->
+	<div class="row">
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1435771112039-1e5b2bcad966?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail"> <!-- img-thumbnail reduces the huge image to something that fits inside the parent element -->
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1442406964439-e46ab8eff7c4?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1434543177303-ef2cc7707e0d?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1436262513933-a0b06755c784?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1439396087961-98bc12c21176?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+		<div class="col-sm-12 col-md-6 col-lg-4">
+			<img src="https://images.unsplash.com/photo-1439694458393-78ecf14da7f9?dpr=2&fit=crop&fm=jpg&h=825&q=50&w=1450" class="img-thumbnail">
+		</div>
+
+		
+	</div>
+
+</div>
+
+
+
+
+</body>
+</html>
